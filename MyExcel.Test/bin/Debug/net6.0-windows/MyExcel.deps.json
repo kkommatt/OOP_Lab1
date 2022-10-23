@@ -1,0 +1,44 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyExcel/1.0.0": {
+        "dependencies": {
+          "MathParser.org-mXparser": "4.3.3.0"
+        },
+        "runtime": {
+          "MyExcel.dll": {}
+        },
+        "resources": {
+          "en/MyExcel.resources.dll": {
+            "locale": "en"
+          }
+        }
+      },
+      "MathParser.org-mXparser/4.3.3.0": {
+        "runtime": {
+          "MathParser.org-mXparser.dll": {
+            "assemblyVersion": "4.3.3.0",
+            "fileVersion": "4.3.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyExcel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathParser.org-mXparser/4.3.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
